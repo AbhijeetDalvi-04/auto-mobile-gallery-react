@@ -48,7 +48,7 @@ export const HeroSection = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button variant="premium" size="lg" className="text-lg px-8 py-3">
-              Explore Collection
+              Explore
             </Button>
             <Button variant="glass" size="lg" className="text-lg px-8 py-3">
               <PlayCircle size={20} className="mr-2" />
