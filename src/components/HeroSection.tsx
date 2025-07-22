@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { ChevronDown, PlayCircle } from 'lucide-react';
-import heroImage from '@/assets/hero-car.jpg';
+import heroImage from '/lovable-uploads/ce40f437-a8ac-4ba9-a2e9-f4debfaec9a0.png';
 
 export const HeroSection = () => {
   const [scrollY, setScrollY] = useState(0);
