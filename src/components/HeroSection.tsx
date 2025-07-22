@@ -37,7 +37,7 @@ export const HeroSection = () => {
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
             Formula
             <span className="block bg-gradient-primary bg-clip-text text-transparent">
-              Automotive Excellence
+              Team Pegasus
             </span>
           </h1>
           
