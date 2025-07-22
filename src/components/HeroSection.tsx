@@ -40,33 +40,8 @@ export const HeroSection = () => {
               Team Pegasus
             </span>
           </h1>
-          
-          <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Discover the world's most exclusive supercars and luxury vehicles. 
-            Every detail crafted for perfection.
-          </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button variant="premium" size="lg" className="text-lg px-8 py-3">
-              Explore
-            </Button>
-            <Button variant="glass" size="lg" className="text-lg px-8 py-3">
-              <PlayCircle size={20} className="mr-2" />
-              Watch Showcase
-            </Button>
-          </div>
         </div>
       </div>
-      
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <ChevronDown size={32} className="text-white/70" />
-      </div>
-      
-      {/* Floating Elements */}
-      <div className="absolute top-1/4 left-8 w-2 h-2 bg-primary rounded-full animate-glow-pulse opacity-60" />
-      <div className="absolute top-1/3 right-12 w-1 h-1 bg-accent rounded-full animate-glow-pulse opacity-40" />
-      <div className="absolute bottom-1/4 left-1/4 w-1.5 h-1.5 bg-primary-glow rounded-full animate-glow-pulse opacity-50" />
     </section>
   );
 };
