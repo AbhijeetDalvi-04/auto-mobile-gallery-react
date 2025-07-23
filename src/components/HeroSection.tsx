@@ -1,7 +1,9 @@
-import { useState, useEffect } from "react";
-import { Button } from "@/components/ui/button";
-import { ChevronDown, PlayCircle } from "lucide-react";
-import heroImage from "../assets/hero-car.jpeg";
+
+import { useState, useEffect } from 'react';
+import { Button } from '@/components/ui/button';
+import { ChevronDown, PlayCircle } from 'lucide-react';
+import heroImage from '/lovable-uploads/ce40f437-a8ac-4ba9-a2e9-f4debfaec9a0.png';
+
 
 export const HeroSection = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -41,6 +43,7 @@ export const HeroSection = () => {
             </span>
           </h1>
 
+
           <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto">
             Discover the world's most exclusive supercars and luxury vehicles.
             Every detail crafted for perfection.
@@ -67,6 +70,10 @@ export const HeroSection = () => {
       <div className="absolute top-1/4 left-8 w-2 h-2 bg-primary rounded-full animate-glow-pulse opacity-60" />
       <div className="absolute top-1/3 right-12 w-1 h-1 bg-accent rounded-full animate-glow-pulse opacity-40" />
       <div className="absolute bottom-1/4 left-1/4 w-1.5 h-1.5 bg-primary-glow rounded-full animate-glow-pulse opacity-50" />
+
+        </div>
+      </div>
+
     </section>
   );
 };
